@@ -1,0 +1,181 @@
+{
+  "metrics": {
+    "revenues": 12500000.0,
+    "ebitda": 2750000.0,
+    "ebit": 2100000.0,
+    "cash_flow_available": 1980000.0,
+    "loan_balance": 6000000.0,
+    "interest_rate": 0.085,
+    "annual_interest": 510000.00000000006,
+    "annual_principal": 857142.8571428572,
+    "annual_debt_service": 1367142.8571428573,
+    "dscr": 1.4482758620689653,
+    "interest_coverage": 3.230769230769231,
+    "leverage": 2.1818181818181817,
+    "ltv": 0.6666666666666666,
+    "total_assets": 9800000.0,
+    "total_liabilities": 6200000.0,
+    "equity": 3600000.0,
+    "facility_name": "Senior Term Loan",
+    "period": "LTM"
+  },
+  "covenants": {
+    "overall_pass": true,
+    "checks": {
+      "DSCR (min)": {
+        "actual": 1.4482758620689653,
+        "threshold": 1.25,
+        "pass": true,
+        "headroom": 0.1982758620689653
+      },
+      "Interest Coverage (min)": {
+        "actual": 3.230769230769231,
+        "threshold": 2.0,
+        "pass": true,
+        "headroom": 1.2307692307692308
+      },
+      "Leverage (max)": {
+        "actual": 2.1818181818181817,
+        "threshold": 4.0,
+        "pass": true,
+        "headroom": 1.8181818181818183
+      },
+      "LTV (max)": {
+        "actual": 0.6666666666666666,
+        "threshold": 0.75,
+        "pass": true,
+        "headroom": 0.08333333333333337
+      }
+    }
+  },
+  "stress_table": [
+    {
+      "Rate Shock": "+0%",
+      "EBITDA Shock": "0%",
+      "Shocked Rate": 0.085,
+      "Shocked EBITDA": 2750000.0,
+      "DSCR": 1.4482758620689653,
+      "Leverage": 2.1818181818181817
+    },
+    {
+      "Rate Shock": "+0%",
+      "EBITDA Shock": "-10%",
+      "Shocked Rate": 0.085,
+      "Shocked EBITDA": 2475000.0,
+      "DSCR": 1.247126436781609,
+      "Leverage": 2.4242424242424243
+    },
+    {
+      "Rate Shock": "+0%",
+      "EBITDA Shock": "-20%",
+      "Shocked Rate": 0.085,
+      "Shocked EBITDA": 2200000.0,
+      "DSCR": 1.0459770114942528,
+      "Leverage": 2.727272727272727
+    },
+    {
+      "Rate Shock": "+0%",
+      "EBITDA Shock": "-30%",
+      "Shocked Rate": 0.085,
+      "Shocked EBITDA": 1924999.9999999998,
+      "DSCR": 0.8448275862068964,
+      "Leverage": 3.1168831168831175
+    },
+    {
+      "Rate Shock": "+1%",
+      "EBITDA Shock": "0%",
+      "Shocked Rate": 0.095,
+      "Shocked EBITDA": 2750000.0,
+      "DSCR": 1.3873873873873872,
+      "Leverage": 2.1818181818181817
+    },
+    {
+      "Rate Shock": "+1%",
+      "EBITDA Shock": "-10%",
+      "Shocked Rate": 0.095,
+      "Shocked EBITDA": 2475000.0,
+      "DSCR": 1.1946946946946946,
+      "Leverage": 2.4242424242424243
+    },
+    {
+      "Rate Shock": "+1%",
+      "EBITDA Shock": "-20%",
+      "Shocked Rate": 0.095,
+      "Shocked EBITDA": 2200000.0,
+      "DSCR": 1.002002002002002,
+      "Leverage": 2.727272727272727
+    },
+    {
+      "Rate Shock": "+1%",
+      "EBITDA Shock": "-30%",
+      "Shocked Rate": 0.095,
+      "Shocked EBITDA": 1924999.9999999998,
+      "DSCR": 0.8093093093093091,
+      "Leverage": 3.1168831168831175
+    },
+    {
+      "Rate Shock": "+2%",
+      "EBITDA Shock": "0%",
+      "Shocked Rate": 0.10500000000000001,
+      "Shocked EBITDA": 2750000.0,
+      "DSCR": 1.3314121037463975,
+      "Leverage": 2.1818181818181817
+    },
+    {
+      "Rate Shock": "+2%",
+      "EBITDA Shock": "-10%",
+      "Shocked Rate": 0.10500000000000001,
+      "Shocked EBITDA": 2475000.0,
+      "DSCR": 1.1464937560038424,
+      "Leverage": 2.4242424242424243
+    },
+    {
+      "Rate Shock": "+2%",
+      "EBITDA Shock": "-20%",
+      "Shocked Rate": 0.10500000000000001,
+      "Shocked EBITDA": 2200000.0,
+      "DSCR": 0.9615754082612872,
+      "Leverage": 2.727272727272727
+    },
+    {
+      "Rate Shock": "+2%",
+      "EBITDA Shock": "-30%",
+      "Shocked Rate": 0.10500000000000001,
+      "Shocked EBITDA": 1924999.9999999998,
+      "DSCR": 0.7766570605187317,
+      "Leverage": 3.1168831168831175
+    },
+    {
+      "Rate Shock": "+3%",
+      "EBITDA Shock": "0%",
+      "Shocked Rate": 0.115,
+      "Shocked EBITDA": 2750000.0,
+      "DSCR": 1.2797783933518005,
+      "Leverage": 2.1818181818181817
+    },
+    {
+      "Rate Shock": "+3%",
+      "EBITDA Shock": "-10%",
+      "Shocked Rate": 0.115,
+      "Shocked EBITDA": 2475000.0,
+      "DSCR": 1.1020313942751614,
+      "Leverage": 2.4242424242424243
+    },
+    {
+      "Rate Shock": "+3%",
+      "EBITDA Shock": "-20%",
+      "Shocked Rate": 0.115,
+      "Shocked EBITDA": 2200000.0,
+      "DSCR": 0.9242843951985226,
+      "Leverage": 2.727272727272727
+    },
+    {
+      "Rate Shock": "+3%",
+      "EBITDA Shock": "-30%",
+      "Shocked Rate": 0.115,
+      "Shocked EBITDA": 1924999.9999999998,
+      "DSCR": 0.7465373961218834,
+      "Leverage": 3.1168831168831175
+    }
+  ]
+}
