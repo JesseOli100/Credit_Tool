@@ -91,8 +91,7 @@ python app.py
 Then open:
 
 http://localhost:55000
-📂 Required CSV Structure
-Financials (Single Row)
+
 
 # Required columns:
 
