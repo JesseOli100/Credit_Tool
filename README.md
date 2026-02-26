@@ -143,5 +143,3 @@ Early warning risk scoring
 
 Jesse Olivarez | Finance | Credit Risk | Data Analytics
 Monte Carlo scenario simulation
-
-API deployment for SaaS integration
