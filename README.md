@@ -142,4 +142,3 @@ Early warning risk scoring
 # Author
 
 Jesse Olivarez | Finance | Credit Risk | Data Analytics
-Monte Carlo scenario simulation
